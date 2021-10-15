@@ -11,7 +11,6 @@ $(function () {
      $(this).addClass("is-active");
     });
    });
-   
    const dropdowns = document.querySelectorAll(".dropdown");
    dropdowns.forEach((dropdown) => {
     dropdown.addEventListener("click", (e) => {
